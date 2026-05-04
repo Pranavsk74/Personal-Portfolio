@@ -1,0 +1,51 @@
+[
+  {
+    "id": "music-abs-trophy",
+    "category": "music",
+    "title": "Akhil Bharatiya Sangh",
+    "issuer": "Music Trophy",
+    "img": "Trophies/akhil.png"
+  },
+  {
+    "id": "poona-medal",
+    "title": "Poona Sangeetha Sabha",
+    "category": "music",
+    "issuer": "Music Medal",
+    "img": "Trophies/poona.png"
+  },
+  {
+    "id": "east-zone",
+    "title": "East Zone Competition",
+    "category": "achievements",
+    "issuer": "Trophy",
+    "img": "Trophies/east.png"
+  },
+  {
+    "id": "international",
+    "title": "International Competition",
+    "category": "achievements",
+    "issuer": "Trophy",
+    "img": "Trophies/international.png"
+  },
+  {
+    "id": "national",
+    "title": "National Competition",
+    "category": "achievements",
+    "issuer": "Trophy",
+    "img": "Trophies/national.png"
+  },
+  {
+    "id": "somaiya",
+    "title": "Somaiya Games",
+    "category": "sports",
+    "issuer": "Trophy",
+    "img": "Trophies/somaiya.png"
+  },
+  {
+    "id": "ghs-trophy",
+    "title": "Grand Highstreet Mall",
+    "category": "music",
+    "issuer": "Trophy",
+    "img": "Trophies/ghs.png"
+  }
+]

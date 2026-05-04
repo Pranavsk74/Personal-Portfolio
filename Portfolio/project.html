@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Pranav Srikrishnan</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <style>
+        /* Specific styles for the project page */
+        .project-hero {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+        
+        .project-hero-img {
+            width: 100%;
+            aspect-ratio: 21/9;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 4rem;
+            filter: grayscale(10%) sepia(10%);
+        }
+
+        .project-section {
+            margin-top: 4rem;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-top: 2rem;
+        }
+
+        .project-features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .project-features li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .project-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .screenshot-grid img {
+            width: 100%;
+            aspect-ratio: 16/10;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .screenshot-grid img:hover {
+            transform: scale(1.02);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.85rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .project-tags-large {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .project-tag-large {
+            font-size: 0.9rem;
+            padding: 0.5rem 1.2rem;
+            background-color: var(--bg-alternate);
+            border-radius: 4px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+        }
+
+        @media (max-width: 992px) {
+            .project-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .screenshot-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand"><a href="index.html">Pranav.</a></div>
+        <div class="nav-links">
+            <a href="index.html#about">About</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div id="project-container">
+        <!-- Content injected via JS -->
+        <div style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+            <p>Loading project details...</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Pranav Srikrishnan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="project.js"></script>
+</body>
+</html>
