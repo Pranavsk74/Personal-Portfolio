@@ -1,0 +1,79 @@
+[
+  {
+    "id": "iitm-foundation",
+    "title": "IITM Foundation Level",
+    "category": "Tech Certificates",
+    "issuer": "IIT Madras",
+    "pdf": "Certificates/Tech Certificates/IITM_Foundation.pdf"
+  },
+  {
+    "id": "computational-finance",
+    "title": "Computational Finance",
+    "category": "Tech Certificates",
+    "issuer": "NPTEL / IIT",
+    "pdf": "Certificates/Tech Certificates/Computational_Finance.pdf"
+  },
+  {
+    "id": "hands-on-ml",
+    "title": "Hands on Machine Learning",
+    "category": "Tech Certificates",
+    "issuer": "Coursera / DeepLearning.AI",
+    "pdf": "Certificates/Tech Certificates/Hands_on_Machine_learning.pdf"
+  },
+  {
+    "id": "scikit-learn",
+    "title": "Scikit Learn Certification",
+    "category": "Tech Certificates",
+    "issuer": "Inria",
+    "pdf": "Certificates/Tech Certificates/Scikit_learn.pdf"
+  },
+  {
+    "id": "mun",
+    "title": "Model United Nations",
+    "category": "Achievements",
+    "issuer": "EIS",
+    "pdf": "Certificates/Extra-Curricular Certificates/MUN_Certificate.pdf"
+  },
+  {
+    "id": "aiu-sports",
+    "title": "AIU Table Tennis Participation",
+    "category": "Sports",
+    "issuer": "Association of Indian Universities",
+    "pdf": "Certificates/Extra-Curricular Certificates/AIU_Certificate.pdf"
+  },
+  {
+    "id": "skream",
+    "title": "SKREAM Sports Festival",
+    "category": "Sports",
+    "issuer": "KJSCE",
+    "pdf": "Certificates/Extra-Curricular Certificates/SKREAM_Certificate.pdf"
+  },
+  {
+    "id": "house-cup",
+    "title": "House Cup Winner",
+    "category": "Sports",
+    "issuer": "DAV",
+    "pdf": "Certificates/Extra-Curricular Certificates/House_Cup_Certificate.pdf"
+  },
+  {
+    "id": "music-abs",
+    "category": "Music",
+    "title": "Akhil Bharatiya Sangh",
+    "issuer": "Music Certification",
+    "pdf": "Certificates/Extra-Curricular Certificates/Akhil_Bharatiya_Sangh.pdf"
+  },
+  {
+    "id": "music-ghs",
+    "category": "Music",
+    "title": "Grand Highstreet Mall",
+    "issuer": "Performance Certificate",
+    "pdf": "Certificates/Extra-Curricular Certificates/GHS_Mall_Certificate.pdf"
+  },
+  {
+    "id": "loa-iqac",
+    "title": "Letter of Appreciation – IQAC",
+    "category": "achievements",
+    "issuer": "IQAC",
+    "pdf": "Certificates/LOA_IQAC.pdf"
+  }
+]

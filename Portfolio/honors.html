@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trophies / Medals | Pranav Srikrishnan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .back-nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.5rem 5%;
+            z-index: 1000;
+            background: rgba(245, 243, 239, 0.85);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .back-link {
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: var(--transition-fast);
+        }
+        .back-link:hover {
+            color: var(--accent);
+            transform: translateX(-5px);
+        }
+    </style>
+</head>
+<body>
+    <nav class="back-nav">
+        <a href="index.html" class="back-link">
+            <i class="fa-solid fa-arrow-left"></i> Back to Portfolio
+        </a>
+    </nav>
+    
+
+
+    <section id="trophies" style="padding-top: 140px; min-height: 80vh;">
+        <div class="container">
+            <div class="reveal">
+                <h1 class="heading-xl" style="margin-bottom: 1rem;">Trophies / Medals</h1>
+                <p class="text-lead" style="margin-bottom: 4rem;">A collection of my achievements across sports, academics, and extra-curriculars.</p>
+            </div>
+            
+            <div class="trophies-grid" id="trophies-grid">
+                <!-- Dynamically populated via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section-alternate" style="padding-top: 4rem; padding-bottom: 8rem;">
+        <div class="container">
+            <div class="reveal">
+                <h2 class="heading-lg" style="margin-bottom: 3rem; text-align: center;">Certificates</h2>
+            </div>
+            
+            <div class="achievements-grid">
+                <!-- Tech Certificates -->
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Tech Certificates/Computational_Finance.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Tech</span>
+                        <h3 class="achievement-title">Computational Finance</h3>
+                        <a href="./Certificates/Tech Certificates/Computational_Finance.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Tech Certificates/Hands_on_Machine_learning.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Tech</span>
+                        <h3 class="achievement-title">Hands on Machine learning</h3>
+                        <a href="./Certificates/Tech Certificates/Hands_on_Machine_learning.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Tech Certificates/IITM_Foundation.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Tech</span>
+                        <h3 class="achievement-title">IITM Foundation</h3>
+                        <a href="./Certificates/Tech Certificates/IITM_Foundation.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Tech Certificates/Scikit_learn.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Tech</span>
+                        <h3 class="achievement-title">Scikit learn</h3>
+                        <a href="./Certificates/Tech Certificates/Scikit_learn.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Extra-Curricular Certificates/AIU_Certificate.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Extra-Curricular</span>
+                        <h3 class="achievement-title">AIU Certificate</h3>
+                        <a href="./Certificates/Extra-Curricular Certificates/AIU_Certificate.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Extra-Curricular Certificates/Akhil_Bharatiya_Sangh.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Extra-Curricular</span>
+                        <h3 class="achievement-title">Akhil Bharatiya Sangh</h3>
+                        <a href="./Certificates/Extra-Curricular Certificates/Akhil_Bharatiya_Sangh.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Extra-Curricular Certificates/GHS_Mall_Certificate.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Extra-Curricular</span>
+                        <h3 class="achievement-title">GHS Mall Certificate</h3>
+                        <a href="./Certificates/Extra-Curricular Certificates/GHS_Mall_Certificate.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Extra-Curricular Certificates/House_Cup_Certificate.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Extra-Curricular</span>
+                        <h3 class="achievement-title">House Cup Certificate</h3>
+                        <a href="./Certificates/Extra-Curricular Certificates/House_Cup_Certificate.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Extra-Curricular Certificates/LOA_IQAC.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Extra-Curricular</span>
+                        <h3 class="achievement-title">LOA IQAC</h3>
+                        <a href="./Certificates/Extra-Curricular Certificates/LOA_IQAC.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Extra-Curricular Certificates/MUN_Certificate.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Extra-Curricular</span>
+                        <h3 class="achievement-title">MUN Certificate</h3>
+                        <a href="./Certificates/Extra-Curricular Certificates/MUN_Certificate.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card reveal">
+                    <div class="ach-img-wrapper">
+                        <iframe src="./Certificates/Extra-Curricular Certificates/SKREAM_Certificate.pdf#toolbar=0" frameborder="0"></iframe>
+                    </div>
+                    <div class="ach-content">
+                        <span class="achievement-cat">Extra-Curricular</span>
+                        <h3 class="achievement-title">SKREAM Certificate</h3>
+                        <a href="./Certificates/Extra-Curricular Certificates/SKREAM_Certificate.pdf" target="_blank" class="ach-pdf-link">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Pranav Srikrishnan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s ease; cursor: pointer;">
+        <img id="lightbox-img" src="" alt="Fullscreen Trophy" style="max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); transform: scale(0.95); transition: transform 0.3s ease; cursor: default;">
+        <button id="lightbox-close" style="position: absolute; top: 2rem; right: 2rem; background: transparent; border: none; color: white; font-size: 2rem; cursor: pointer;"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const trophies = [
+                { img: "Trophies/akhil.png", title: "Akhil Bharatiya Sangh" },
+                { img: "Trophies/east.png", title: "East Zone Competition" },
+                { img: "Trophies/ghs.png", title: "Grand Highstreet Mall" },
+                { img: "Trophies/international.png", title: "International Competition" },
+                { img: "Trophies/national.png", title: "National Competition" },
+                { img: "Trophies/poona.png", title: "Poona Sangeetha Sabha" },
+                { img: "Trophies/somaiya.png", title: "Somaiya Games" }
+            ];
+
+            const grid = document.getElementById('trophies-grid');
+            if (grid) {
+                let html = '';
+                trophies.forEach((t, index) => {
+                    const delay = (index % 10) * 0.1;
+                    html += `
+                        <div class="trophy-card reveal" style="transition-delay: ${delay}s;">
+                            <div class="trophy-img-wrapper" style="position: relative;">
+                                <img src="${t.img}" alt="${t.title}" loading="lazy" onerror="this.src='fallback.png';">
+                            </div>
+                            <div class="trophy-content">
+                                <h3 class="trophy-title">${t.title}</h3>
+                            </div>
+                        </div>
+                    `;
+                });
+                grid.innerHTML = html;
+            }
+
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            // Initialize reveal on elements existing, including the dynamically added ones
+            setTimeout(() => {
+                const updatedReveals = document.querySelectorAll('.reveal');
+                updatedReveals.forEach(reveal => {
+                    observer.observe(reveal);
+                });
+                
+                // Initialize Lightbox after rendering
+                const modal = document.getElementById('lightbox-modal');
+                const modalImg = document.getElementById('lightbox-img');
+                const closeBtn = document.getElementById('lightbox-close');
+
+                document.querySelectorAll('.trophy-card').forEach(card => {
+                    card.addEventListener('click', () => {
+                        const imgSrc = card.querySelector('img').src;
+                        modalImg.src = imgSrc;
+                        modal.style.display = 'flex';
+                        // Force reflow for transition
+                        void modal.offsetWidth;
+                        modal.style.opacity = '1';
+                        modalImg.style.transform = 'scale(1)';
+                    });
+                });
+
+                const closeModal = () => {
+                    modal.style.opacity = '0';
+                    modalImg.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        modal.style.display = 'none';
+                    }, 300);
+                };
+
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        closeModal();
+                    }
+                });
+                closeBtn.addEventListener('click', closeModal);
+                
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && modal.style.display === 'flex') {
+                        closeModal();
+                    }
+                });
+            }, 50);
+        });
+    </script>
+</body>
+</html>

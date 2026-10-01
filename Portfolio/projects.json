@@ -1,0 +1,52 @@
+[
+  {
+    "id": "solex",
+    "title": "Sneaker Shop",
+    "description": "A full-stack sneaker marketplace that unifies multiple brands into a single platform with advanced filtering, cart, wishlist, and real-time interaction.",
+    "tags": ["React", "Node.js", "PostgreSQL", "REST API"],
+    "image": "Projects/SoleX-Photo.jpeg",
+    "githubUrl": "https://github.com/Shaurya2k06/wpl-miniproject",
+    "liveUrl": "https://wpl-miniproject-swart.vercel.app/",
+    "pptUrl": "https://canva.link/f55357kqfzl58sz"
+  },
+  {
+    "id": "ticket-booking",
+    "title": "Ticket Booking System",
+    "description": "A comprehensive ticket booking system.",
+    "tags": ["React", "Node.js", "Express", "MongoDB"],
+    "image": "Projects/bustrain.jpg",
+    "githubUrl": "https://github.com/Pranavsk74/Ticket-Booking-System",
+    "liveUrl": "https://ticket-booking-systemnew.vercel.app/",
+    "pptUrl": "https://canva.link/5sardvf6j7uksco"
+  },
+  {
+    "id": "sentimengine",
+    "title": "Sentimengine",
+    "description": "Sentiment Model application for analyzing text sentiments accurately.",
+    "tags": ["Python", "Machine Learning", "NLP"],
+    "image": "Projects/Sentimental.jpg",
+    "githubUrl": "https://github.com/Pranavsk74/Sentimengine",
+    "liveUrl": "#",
+    "pptUrl": "#"
+  },
+  {
+    "id": "ocr-system",
+    "title": "OCR System",
+    "description": "Optical Character Recognition system for extracting text from images.",
+    "tags": ["Python", "OpenCV", "Tesseract"],
+    "image": "Projects/OCR.jpg",
+    "githubUrl": "https://github.com/Pranavsk74/OCR",
+    "liveUrl": "#",
+    "pptUrl": "https://www.canva.com/design/DAHItr2E29Y/k8UwU8e_ON_1J--YGAyhKg/edit"
+  },
+  {
+    "id": "bank-churn",
+    "title": "Bank Churn Prediction",
+    "description": "A machine learning project to predict bank customer churn.",
+    "tags": ["Python", "Scikit-learn", "Pandas", "Flask"],
+    "image": "Projects/customer churn.jpg",
+    "githubUrl": "https://github.com/Pranavsk74/Bank-Churn",
+    "liveUrl": "https://bank-churn-phi.vercel.app/",
+    "pptUrl": "#"
+  }
+]

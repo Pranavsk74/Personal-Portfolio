@@ -1,0 +1,40 @@
+{
+  "Languages": [
+    { "name": "Python", "icon": "devicon-python-plain" },
+    { "name": "C", "icon": "devicon-c-plain" },
+    { "name": "C++", "icon": "devicon-cplusplus-plain" },
+    { "name": "Java", "icon": "devicon-java-plain" },
+    { "name": "TypeScript", "icon": "devicon-typescript-plain" }
+  ],
+  "Frameworks": [
+    { "name": "React", "icon": "devicon-react-original" },
+    { "name": "Node.js", "icon": "devicon-nodejs-plain" },
+    { "name": "Flask", "icon": "devicon-flask-original" }
+  ],
+  "Databases": [
+    { "name": "MySQL", "icon": "devicon-mysql-plain" },
+    { "name": "PostgreSQL", "icon": "devicon-postgresql-plain" },
+    { "name": "MongoDB", "icon": "devicon-mongodb-plain" }
+  ],
+  "ML Libraries": [
+    { "name": "PyTorch", "icon": "devicon-pytorch-original" },
+    { "name": "TensorFlow", "icon": "devicon-tensorflow-original" },
+    { "name": "Keras", "icon": "devicon-tensorflow-original" },
+    { "name": "XGBoost", "icon": "fa-solid fa-code-branch" },
+    { "name": "Pandas", "icon": "devicon-pandas-original" },
+    { "name": "NumPy", "icon": "devicon-numpy-original" },
+    { "name": "Scikit-learn", "icon": "scikit-learn.png" },
+    { "name": "Seaborn", "icon": "fa-solid fa-chart-line" },
+    { "name": "Matplotlib", "icon": "fa-solid fa-chart-pie" },
+    { "name": "Tkinter", "icon": "fa-brands fa-python" }
+  ],
+  "Tools": [
+    { "name": "Git", "icon": "devicon-git-plain" },
+    { "name": "GitHub", "icon": "devicon-github-original" },
+    { "name": "VS Code", "icon": "devicon-vscode-plain" },
+    { "name": "REST APIs", "icon": "fa-solid fa-network-wired" },
+    { "name": "Power BI", "icon": "fa-solid fa-chart-pie" },
+    { "name": "Blender", "icon": "devicon-blender-original" },
+    { "name": "Figma", "icon": "Figma logo.webp" }
+  ]
+}
