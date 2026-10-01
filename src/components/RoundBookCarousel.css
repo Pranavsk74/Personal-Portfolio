@@ -1,0 +1,196 @@
+/* 3D Editorial Round Book Carousel */
+.round-carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+  overflow: hidden;
+}
+
+.round-carousel-header-tag {
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: #A8693A;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.round-carousel-stage {
+  position: relative;
+  width: 100%;
+  height: 460px;
+  perspective: 1100px;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: pan-y;
+  cursor: grab;
+}
+
+.round-carousel-stage.is-dragging {
+  cursor: grabbing;
+}
+
+.round-carousel-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round-book-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 230px;
+  height: 320px;
+  margin-left: -115px;
+  margin-top: -160px;
+  transform-style: preserve-3d;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid rgba(43, 38, 35, 0.12);
+  box-shadow: 0 12px 35px rgba(43, 38, 35, 0.10);
+  overflow: hidden;
+  will-change: transform, opacity;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.round-book-card.is-active {
+  border-color: #A8693A;
+  box-shadow: 0 18px 45px rgba(168, 105, 58, 0.20);
+}
+
+.round-book-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  pointer-events: none;
+}
+
+/* Minimal Book Info Overlay on Hover */
+.round-book-info {
+  position: absolute;
+  bottom: 0;
+  inset-x: 0;
+  background: linear-gradient(to top, rgba(43, 38, 35, 0.9) 0%, rgba(43, 38, 35, 0.6) 70%, transparent 100%);
+  padding: 1.25rem 1rem 0.85rem 1rem;
+  color: #FFFFFF;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.round-book-card.is-active:hover .round-book-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.round-book-title {
+  font-family: var(--font-heading, 'Playfair Display', serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #FFFFFF;
+  margin-bottom: 0.2rem;
+}
+
+.round-book-author {
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+
+/* Minimal Editorial Navigation Row */
+.round-carousel-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.75rem;
+}
+
+.round-nav-btn {
+  background: none;
+  border: 1px solid rgba(43, 38, 35, 0.2);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #2B2623;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.round-nav-btn:hover {
+  background-color: #2B2623;
+  color: #F4F1ED;
+  border-color: #2B2623;
+  transform: scale(1.08);
+}
+
+.round-nav-btn:active {
+  transform: scale(0.95);
+}
+
+.round-nav-counter {
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: #A8693A;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* Responsive Scaling */
+@media (max-width: 992px) {
+  .round-carousel-stage {
+    height: 400px;
+    perspective: 850px;
+  }
+  .round-book-card {
+    width: 190px;
+    height: 270px;
+    margin-left: -95px;
+    margin-top: -135px;
+  }
+}
+
+@media (max-width: 639px) {
+  .round-carousel-stage {
+    height: 330px;
+    perspective: 650px;
+  }
+  .round-book-card {
+    width: 155px;
+    height: 220px;
+    margin-left: -77.5px;
+    margin-top: -110px;
+  }
+  .round-nav-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 0.85rem;
+  }
+  .round-nav-counter {
+    font-size: 0.8rem;
+  }
+}
