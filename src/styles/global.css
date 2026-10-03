@@ -581,6 +581,24 @@ section {
   justify-content: center;
 }
 
+.ach-pdf-preview {
+  width: calc(100% + 24px) !important;
+  height: calc(100% + 24px) !important;
+  margin-right: -24px !important;
+  margin-bottom: -24px !important;
+  border: none !important;
+  pointer-events: none !important;
+  overflow: hidden !important;
+}
+
+.no-certificates-msg {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
 .ach-content {
   padding: 1.5rem;
   display: flex;

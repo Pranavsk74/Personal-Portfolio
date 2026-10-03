@@ -38,22 +38,8 @@ export const certificates = [
     id: 'computational-finance',
     title: 'Computational Finance',
     category: 'Tech Certificates',
-    issuer: 'NPTEL / IIT',
+    issuer: 'Mindluster',
     pdf: '/documents/certificates/Tech Certificates/Computational_Finance.pdf'
-  },
-  {
-    id: 'hands-on-ml',
-    title: 'Hands on Machine Learning',
-    category: 'Tech Certificates',
-    issuer: 'Coursera / DeepLearning.AI',
-    pdf: '/documents/certificates/Tech Certificates/Hands_on_Machine_learning.pdf'
-  },
-  {
-    id: 'scikit-learn',
-    title: 'Scikit Learn Certification',
-    category: 'Tech Certificates',
-    issuer: 'Inria',
-    pdf: '/documents/certificates/Tech Certificates/Scikit_learn.pdf'
   },
   {
     id: 'music-abs',
@@ -72,21 +58,21 @@ export const certificates = [
   {
     id: 'aiu-sports',
     title: 'AIU Table Tennis Participation',
-    category: 'Achievements',
+    category: 'Sports',
     issuer: 'Association of Indian Universities',
     pdf: '/documents/certificates/Extra-Curricular Certificates/AIU_Certificate.pdf'
   },
   {
     id: 'skream',
     title: 'SKREAM Sports Festival',
-    category: 'Achievements',
+    category: 'Sports',
     issuer: 'KJSCE',
     pdf: '/documents/certificates/Extra-Curricular Certificates/SKREAM_Certificate.pdf'
   },
   {
     id: 'house-cup',
     title: 'House Cup Champion',
-    category: 'Achievements',
+    category: 'Sports',
     issuer: 'DAV Pune',
     pdf: '/documents/certificates/Extra-Curricular Certificates/House_Cup_Certificate.pdf'
   },
@@ -105,3 +91,4 @@ export const certificates = [
     pdf: '/documents/certificates/Extra-Curricular Certificates/MUN_Certificate.pdf'
   }
 ];
+
